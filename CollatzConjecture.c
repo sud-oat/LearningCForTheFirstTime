@@ -3,7 +3,7 @@
 void Collatz(){
     printf("Enter a number to test for Collatz Conjecture");
     int seed;
-    scanf("%d", &seed);
+    scanf("%d\n", &seed);
     while (seed>1){
         if (seed%2 == 0){
             seed = seed/2;
